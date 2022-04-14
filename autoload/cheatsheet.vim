@@ -6,6 +6,7 @@ function cheatsheet#open() abort
   normal <C-w>p
   execute 'e ' . s:doc_dir
   set readonly
+  set nomodifiable
   vertical resize 40
 endfunction
 
